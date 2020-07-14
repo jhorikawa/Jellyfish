@@ -70,7 +70,7 @@ namespace Jellyfish.Components
                shape is Brep || shape is GH_Brep ||
                shape is Surface || shape is GH_Surface ||
                shape is Curve || shape is GH_Curve ||
-               shape is GH_Box)
+               shape is GH_Box || shape is GH_Line)
             {
                 geo = GH_Convert.ToGeometryBase(shape);
             }

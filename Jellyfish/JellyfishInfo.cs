@@ -26,7 +26,7 @@ namespace Jellyfish
             get
             {
                 //Return a short string describing the purpose of this GHA library.
-                return "";
+                return "Package of utilities Junichiro Horikawa made for design efficiency.";
             }
         }
         public override Guid Id
@@ -42,7 +42,7 @@ namespace Jellyfish
             get
             {
                 //Return a string identifying you or your company.
-                return "";
+                return "Junichiro Horikawa";
             }
         }
         public override string AuthorContact
@@ -50,7 +50,7 @@ namespace Jellyfish
             get
             {
                 //Return a string representing your preferred contact details.
-                return "";
+                return "twitter: @jhorikawa_err";
             }
         }
     }

@@ -65,20 +65,7 @@ namespace Jellyfish.Components
             DA.GetDataList(4, radiuses);
             DA.GetDataList(5, weights);
 
-            GeometryBase geo = null;
-            if(shape is Mesh || shape is GH_Mesh || 
-               shape is Brep || shape is GH_Brep ||
-               shape is Surface || shape is GH_Surface ||
-               shape is Curve || shape is GH_Curve ||
-               shape is GH_Box || shape is GH_Line)
-            {
-                geo = GH_Convert.ToGeometryBase(shape);
-            }
-            else
-            {
-                return;
-            }
-
+            GeometryBase geo = GH_Convert.ToGeometryBase(shape);
 
             var points = new Point3dList();
             var attracts = new Point3dList(attractors);

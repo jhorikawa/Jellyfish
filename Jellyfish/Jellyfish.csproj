@@ -57,9 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\CenterPointComponent.cs" />
+    <Compile Include="Components\FormatNumberComponent.cs" />
     <Compile Include="Components\MeshNormalComponent.cs" />
     <Compile Include="Components\PointToTextComponent.cs" />
+    <Compile Include="Components\RoundFractionComponent.cs" />
     <Compile Include="Components\SaveCsvComponent.cs" />
+    <Compile Include="Components\SplitGeometryByTypeComponent.cs" />
     <Compile Include="Components\TransposeComponent.cs" />
     <Compile Include="Components\SaveTextComponent.cs" />
     <Compile Include="Components\TreeBranchIndexComponent.cs" />

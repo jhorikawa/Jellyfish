@@ -59,6 +59,13 @@
     <Compile Include="Components\CenterPointComponent.cs" />
     <Compile Include="Components\ConsecutiveAdditionComponent.cs" />
     <Compile Include="Components\CreateNullComponent.cs" />
+    <Compile Include="Components\HyperbolicCosecantComponent.cs" />
+    <Compile Include="Components\HyperbolicCosineComponent.cs" />
+    <Compile Include="Components\HyperbolicCotangentComponent.cs" />
+    <Compile Include="Components\HyperbolicSecantComponent.cs" />
+    <Compile Include="Components\HyperbolicSineComponent.cs" />
+    <Compile Include="Components\HyperbolicTangentComponent.cs" />
+    <Compile Include="Components\MakePairComponent.cs" />
     <Compile Include="Components\MinusOneComponent.cs" />
     <Compile Include="Components\OneMinusComponent.cs" />
     <Compile Include="Components\RandomVectorComponent.cs" />

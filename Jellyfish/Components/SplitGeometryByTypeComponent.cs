@@ -14,7 +14,7 @@ namespace Jellyfish.Components
         /// Initializes a new instance of the SplitGeometryByTypeComponent class.
         /// </summary>
         public SplitGeometryByTypeComponent()
-          : base("SplitGeometryByType", "SplitGeometryByType",
+          : base("Split Geometry By Type", "SplitGeometryByType",
               "Split geometry by type.",
               "Jellyfish", "Geometry")
         {

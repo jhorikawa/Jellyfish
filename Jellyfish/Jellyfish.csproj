@@ -56,9 +56,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Components\BranchCountComponent.cs" />
     <Compile Include="Components\CenterPointComponent.cs" />
     <Compile Include="Components\ConsecutiveAdditionComponent.cs" />
     <Compile Include="Components\CreateNullComponent.cs" />
+    <Compile Include="Components\CullBranchComponent.cs" />
+    <Compile Include="Components\GenericGroupComponent.cs" />
+    <Compile Include="Components\GenericUngroupComponent.cs" />
     <Compile Include="Components\HyperbolicCosecantComponent.cs" />
     <Compile Include="Components\HyperbolicCosineComponent.cs" />
     <Compile Include="Components\HyperbolicCotangentComponent.cs" />
@@ -82,6 +86,7 @@
     <Compile Include="Components\TransposeComponent.cs" />
     <Compile Include="Components\SaveTextComponent.cs" />
     <Compile Include="Components\TreeBranchIndexComponent.cs" />
+    <Compile Include="Data\GenericGroup.cs" />
     <Compile Include="Functions\JellyUtility.cs" />
     <Compile Include="JellyfishInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
